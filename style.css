@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+li {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 18px 15px;
+    list-style-type: none;
+    font-size: 22px;
+    height: auto;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    border-color: blue;
+    height: 100%;
+    background-color: yellow;
+}
+header {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: bold;
+}
+li a {
+    text-decoration: none;
+    color: darkcyan;
+}
+#main-doc{
+    margin-left: 470px;
+margin-top: 20px;
+}
+.main-section {
+    font-size: 16px;
+    font-weight: lighter;
+    opacity: 1.2;
+}
+a{
+    color: red;
+    list-style-type: none;
+    text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgray;
+    }
+  }
+  
